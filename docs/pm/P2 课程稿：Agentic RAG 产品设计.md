@@ -10,7 +10,7 @@
 ## 前文回顾：用户说“AI 没能解决我的问题”，到底是谁的错？
 在公共基础篇 F1 中，我们确立了一个核心判断，大模型有三个局限——幻觉、知识截止、个性化盲区。这些局限在本质上是同一个问题：**它只有训练数据，没有你的数据**。
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/pm/P2/P2-01.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/pm/P2/P2-01.png)
 
 在 F2 中，我们画了一张地图，看到 Agent 的每一项能力拆到底，都是数据的存储与检索。
 
@@ -22,7 +22,7 @@
 
 RAG 全称是 **Retrieval-Augmented Generation**，重点在第一个词：**Retrieval，检索**。
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/pm/P2/P2-02.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/pm/P2/P2-02.png)
 
 这里的“检索”不是特指向量检索，而是**所有能把有用信息取回给模型的手段**，例如：
 
@@ -55,7 +55,7 @@ RAG 全称是 **Retrieval-Augmented Generation**，重点在第一个词：**Ret
 >
 > 但用户需要的是 1.2.0，不是 1.0.0，这两个版本的兼容性信息可能完全不同，论坛小助手的效果没有达到预期，用户纷纷吐槽。
 >
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/pm/P2/P2-03.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/pm/P2/P2-03.png)
 >
 > 这个问题让我们快速意识到支持向量搜索还不够，“混合搜索”也是必不可少的能力（所以，我们很快就在之后 OceanBase/seekdb 版本中支持了“混合搜索”，并不断把混合搜索的性能优化到了业界最领先的水平）。
 >
@@ -80,7 +80,7 @@ RAG 全称是 **Retrieval-Augmented Generation**，重点在第一个词：**Ret
 + **传统 RAG**：流程大多是预先设计好的，一般是无环的
 + **Agentic RAG**：流程里开始出现闭环，系统可以自主决定下一步怎么走
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/pm/P2/P2-04.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/pm/P2/P2-04.png)
 
 ### 传统 RAG：通常是无环流程，可以复杂，但大多是写死的
 很多人一提传统 RAG，就把它想成：
@@ -165,7 +165,7 @@ Agent 会主动判断：
 + **范围过滤**：需要限定行业、版本、文档类型、发布时间
 + **多跳整合**：先找兼容性要求，再找升级注意事项，最后合并成一个回答
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/pm/P2/P2-05.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/pm/P2/P2-05.png)
 
 如果你只用单次向量检索，往往只能解决第一类，后面三类都很容易出问题。  
 这件事跟你是不是 Agentic RAG 没关系，**只要你在做生产级 RAG，就一定都会遇到。**
@@ -183,14 +183,14 @@ Agent 会主动判断：
 
 **数据准备（indexing） → 问题理解与改写（query analysis / transformation） → 搜索召回（retrieval） → 融合重排（fusion / reranking） → 回答生成（generation） → 评估反馈（evaluation）**
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/pm/P2/P2-06.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/pm/P2/P2-06.png)
 
 这六步里，前面三步决定“能不能找对”，后面三步决定“能不能答对”。
 
 ### 1. 数据准备
 这是最容易被低估、但最影响最终效果的一步。
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/pm/P2/P2-07.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/pm/P2/P2-07.png)
 
 数据准备不是“把文档丢进向量库”这么简单，而是要回答几个问题：
 
@@ -407,7 +407,7 @@ RAGAS 有四类核心评估指标，正好可以和上面的 RAG 流程一一对
 原因很简单：**不管是传统 RAG 还是 Agentic RAG，只要你在做生产级 RAG，混合搜索几乎都会成为基础能力。**  
 而当系统进一步从无环流程升级到带闭环的 Agentic workflow 之后，底层存储和搜索引擎就更不再只是一个存文档的地方了，它开始直接参与整条流程的质量和成本。
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/pm/P2/P2-08.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/pm/P2/P2-08.png)
 
 ### 混合搜索在 RAG 流程里的作用，有三层
 **第一层：同时服务传统 RAG 和 Agentic RAG。**
@@ -472,7 +472,7 @@ RAGAS 有四类核心评估指标，正好可以和上面的 RAG 流程一一对
 “AI 答得不好”就像“头疼”——它是一个**症状**，不是一个**诊断**。你需要找到症状背后的根因，才能给出正确的解法。
 
 ### 三层归因框架
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/pm/P2/P2-09.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/pm/P2/P2-09.png)
 
 我们把“AI 答得不好”的根因分为三层：
 **第一层：数据层问题**
@@ -521,7 +521,7 @@ RAGAS 有四类核心评估指标，正好可以和上面的 RAG 流程一一对
 ## 第六部分：RAG 问题归因决策树
 框架有了，怎么用？我给你一棵决策树，下次遇到“AI 答得不好”的用户反馈，按这棵树走就行。
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/pm/P2/P2-10.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/pm/P2/P2-10.png)
 
 **第一步：确认问题是什么。**
 
@@ -613,10 +613,10 @@ RAGAS 有四类核心评估指标，正好可以和上面的 RAG 流程一一对
 
 ---
 
-欢迎各位老师在 https://github.com/ob-labs/easy-data-x-ai 参与课程共建。
+欢迎各位老师在 https://github.com/datawhalechina/easy-data-x-ai 参与课程共建。
 
 也欢迎各位老师加入 Data x AI 交流群~
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png" width="200" />
+  <img src="https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png" width="200" />
 </div>

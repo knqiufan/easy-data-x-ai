@@ -75,7 +75,7 @@ def agent_loop(user_input, tools, max_steps=10):
 
 这和 P1 讲的判断一致：**Agent 表现不好，多半不是模型不够聪明，是它没拿到够好的数据。**
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/dev/D4/01-react-loop.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/dev/D4/01-react-loop.png)
 
 现在，带着这个理解，我们来看记忆系统如何融入这个循环。
 
@@ -213,7 +213,7 @@ def agent_with_memory(user_input, tools, memory):
 
 看到了吗？三种长期记忆都是在 Agent 推理循环**之前**被注入到 Prompt 中的。它们的作用是让 Agent 在开始推理时就已经“认识”这个用户、“记得”过去的经验、“知道”自己该怎么做。
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/dev/D4/02-memory-architecture.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/dev/D4/02-memory-architecture.png)
 
 ## 第三部分：用 PowerMem 给 Agent 装上记忆
 
@@ -350,7 +350,7 @@ print(chat_with_memory("怎么给我的项目加缓存？"))
 
 **天壤之别。**
 
-![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/dev/D4/03-memory-before-after.png)
+![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/dev/D4/03-memory-before-after.png)
 
 ## 第四部分：框架集成——不需要重写你的架构
 
@@ -529,10 +529,10 @@ while True:
 
 ---
 
-欢迎各位老师在 https://github.com/ob-labs/easy-data-x-ai 参与课程共建。
+欢迎各位老师在 https://github.com/datawhalechina/easy-data-x-ai 参与课程共建。
 
 也欢迎各位老师加入 Data x AI 交流群~
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png" width="200" />
+  <img src="https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png" width="200" />
 </div>
