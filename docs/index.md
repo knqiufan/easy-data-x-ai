@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "Easy Data X AI"
+  name: "Easy Data x AI"
   text: "开发者友好的数据与 AI 入门教程"
   tagline: 开始学起来吧~
   image:
     src: /learning.GIF
-    alt: Easy Data X AI
+    alt: Easy Data x AI
   actions:
     - theme: brand
       text: 开始学习

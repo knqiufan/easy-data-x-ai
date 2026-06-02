@@ -252,7 +252,7 @@ OpenClaw 的源码有几十万行，但让它"越用越好用"的核心机制，
 > 我们即将上线的社区课程，会从 “数据” 这个视角为大家进一步展开。
 >
 
-### OceanBase 社区课程《Easy Data X AI》上线预告
+### OceanBase 社区课程《Easy Data x AI》上线预告
 <!-- 这是一张图片，ocr 内容为： -->
 ![](https://raw.githubusercontent.com/datawhalechina/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-16.png)
 
