@@ -218,6 +218,13 @@ python3 d1_1_base.py
   <a href="https://github.com/hu-qi" title="打开 hu-qi 的 GitHub 主页"><kbd><strong>hu‑qi</strong></kbd></a><br />
   <sub>1 commit</sub>
 </td>
+<td align="center" valign="top" width="104">
+  <a href="https://github.com/webup" title="webup">
+    <img src="https://avatars.githubusercontent.com/u/2936504?v=4&s=144" width="72" height="72" alt="webup" style="border-radius:50%;" />
+  </a><br />
+  <a href="https://github.com/webup" title="打开 webup 的 GitHub 主页"><kbd><strong>webup</strong></kbd></a><br />
+  <sub>1 commit</sub>
+</td>
 </tr>
 </table>
 <!-- contributors:end -->
