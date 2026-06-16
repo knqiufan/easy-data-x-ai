@@ -143,6 +143,35 @@ python3 d1_1_base.py
 
 ---
 
+## 友情链接
+
+本课程开发者 [沧海九粟](https://space.bilibili.com/28357052) 在 DataWhale 又开源的另一门课程 —— [《Deep Agents 实战》](https://github.com/datawhalechina/deepagents-in-action)。面向想要动手构建 Agent 的开发者，系统讲解虚拟文件系统、任务规划、子 Agent、Skills、Memory 等核心能力。欢迎大家来学习和积极参与共建。
+
+---
+
+## 模型算力支持
+
+<table>
+<tr>
+<td width="180" align="center" valign="middle">
+<a href="https://cloud.siliconflow.cn/i/Fq9zUwPf" target="_blank" rel="noopener">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/public/images/sponsors/siliconflow-dark.svg" />
+    <img src="docs/public/images/sponsors/siliconflow.svg" alt="SiliconFlow 硅基流动" width="150" />
+  </picture>
+</a>
+</td>
+<td valign="middle">
+本课程的模型算力由 <strong><a href="https://cloud.siliconflow.cn/i/Fq9zUwPf">硅基流动（SiliconFlow）</a></strong> 支持。硅基流动是一站式大模型云服务平台，基于自研推理引擎实现大模型高效推理加速，提供高效能、低成本的多品类 AI 模型服务，让开发者和企业聚焦产品创新，无须担心大规模推广带来的高昂算力成本。
+</td>
+</tr>
+</table>
+
+- 🎁 **新用户福利**：通过 [课程专属注册链接](https://cloud.siliconflow.cn/i/Fq9zUwPf) 注册并完成实名认证，即可获得 **16 元全平台通用代金券**，可用于平台上百余种模型的调用，足够跑通本课程的全部示例。
+- 🧪 **实验配额补贴池**：用上面的链接注册时，作者也会获得平台返利。这部分返利会**全额回馈给学员**——汇集成一个「实验配额补贴池」：跟着课程做实验、复现示例时如果额度不够用，可以[联系作者](https://space.bilibili.com/3546900567427713)申请额外的算力配额补贴，把福利转回给真正在动手的同学。
+
+---
+
 ## 🧑‍💻 项目维护者
 
 <table>
