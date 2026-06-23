@@ -75,7 +75,7 @@ feat: 新增扩展篇 <X编号> <标题>   # Extra-Chapter
 chore: <工程/基建说明>            # CI、依赖、脚本
 ```
 
-> ✅ **认领任务的同学**：请在 PR 描述里注明认领的任务编号（如「认领 #3」），方便归档统计。
+> ✅ **认领任务的同学**：请在 PR 描述里注明认领的任务编号（如「认领 [#21](https://github.com/datawhalechina/easy-data-x-ai/issues/21)」），方便归档统计。
 
 ---
 
@@ -107,23 +107,23 @@ chore: <工程/基建说明>            # CI、依赖、脚本
 
 | # | 章节 | 待完善的点 | 共建方向 | 难度 |
 | --- | --- | --- | --- | --- |
-| 1 | **P3** | 记忆时效性管理只提了难点，没有给解法 | 补充「记忆衰减策略」：结合艾宾浩斯曲线，给出遗忘分数计算 + 主动淘汰的具体方案 | L2 |
-| 2 | **P3** | 多 Agent 共享记忆的边界问题未展开 | 补充「多 Agent 记忆隔离与共享」：何时隔离、何时共享、如何设计命名空间 | L2 |
-| 3 | **P3** | 记忆冲突处理（新旧信息矛盾）完全缺失 | 补充「记忆冲突解决策略」：时间戳优先 / 置信度加权 / 人工介入三种模式对比 | L2 |
-| 4 | **P4** | Skill 全量注入上下文导致爆炸，课程没有给解法 | 补充「通过 seekdb 结构化管理 Skill」：把 Skill 存入数据库，按需语义检索加载，对比全量注入 vs 按需加载的 Token 占用 | L3 |
-| 5 | **P4** | Skill 标准化的具体原则没有展开 | 补充「Skill 设计规范」：命名、描述、参数、示例的标准格式，参考 MCP Tool 规范 | L1 |
-| 6 | **P4 → D5** | P4 讲了 Skill 分割问题，但没有为 D5 的 MCP 做铺垫，两篇脱节 | 在 P4 结尾补「从 Skill 到 MCP：为什么需要标准化协议」，作为 D5 的引入 | L1 |
-| 7 | **P5** | 三层度量框架讲了指标，但没有说怎么落地监测 | 补充「度量框架实施指南」：用 LangSmith / Prometheus 搭一套最小可用监控 dashboard | L3 |
-| 8 | **P5** | 缺少成本–收益分析 | 补充「AI Agent ROI 计算模型」：数据层 / 模型层 / 业务层的投入产出估算框架 | L2 |
-| 9 | **D2** | 向量化模型选型只推荐了 bge-m3，没有讲怎么选 | 补充「Embedding 模型选型指南」：中英文、多模态、成本、延迟四个维度横评 | L2 |
-| 10 | **D2** | Chunking 策略只讲了基础分块，高级技巧缺失 | 补充「高级 Chunking 策略」：语义分块、动态 overlap、父子 chunk 三种策略对比实验 | L3 |
-| 11 | **D3** | 对比实验样本量太小，无统计显著性 | 扩充评测数据集，补充更多场景（多跳问题、时效性查询、模糊表达），重跑 RAGAS 对比 | L3 |
-| 12 | **D3** | P2 梳理的工程痛点在 D3 没有逐一给出解法 | 按 P2 痛点列表逐一补充对应代码实现（查询改写 / 自适应检索 / 答案验证等） | L3 |
-| 13 | **D3** | 缺检索延迟和成本数据 | 补充「混合检索 vs 纯向量」的延迟 / 成本 / 精度三角对比实验 | L2 |
-| 14 | **D4** | 记忆存储成本没有讨论 | 补充「长期记忆的存储成本控制」：压缩策略、冷热分层、定期清理的工程实践 | L2 |
-| 15 | **D4** | 多用户记忆隔离方案缺失 | 补充「多用户 / 多租户记忆隔离」：user_id 命名空间 + 权限校验的实现示例 | L3 |
-| 16 | **D5** | MCP 标准化几乎完全缺失（标题承诺但正文没展开） | 补充「MCP 实战」：从零实现一个 MCP Server，把 P4 设计的 Skill 发布成 MCP Tool，跑通 Claude / Cursor 调用 | L3 |
-| 17 | **D5** | 跨平台 Skill 互操作没有示例 | 补充「同一个 Skill 在 Claude Code / Cursor / Copilot 中的调用差异」对比 | L2 |
+| [#19](https://github.com/datawhalechina/easy-data-x-ai/issues/19) | **P3** | 记忆时效性管理只提了难点，没有给解法 | 补充「记忆衰减策略」：结合艾宾浩斯曲线，给出遗忘分数计算 + 主动淘汰的具体方案 | L2 |
+| [#20](https://github.com/datawhalechina/easy-data-x-ai/issues/20) | **P3** | 多 Agent 共享记忆的边界问题未展开 | 补充「多 Agent 记忆隔离与共享」：何时隔离、何时共享、如何设计命名空间 | L2 |
+| [#21](https://github.com/datawhalechina/easy-data-x-ai/issues/21) | **P3** | 记忆冲突处理（新旧信息矛盾）完全缺失 | 补充「记忆冲突解决策略」：时间戳优先 / 置信度加权 / 人工介入三种模式对比 | L2 |
+| [#22](https://github.com/datawhalechina/easy-data-x-ai/issues/22) | **P4** | Skill 全量注入上下文导致爆炸，课程没有给解法 | 补充「通过 seekdb 结构化管理 Skill」：把 Skill 存入数据库，按需语义检索加载，对比全量注入 vs 按需加载的 Token 占用 | L3 |
+| [#23](https://github.com/datawhalechina/easy-data-x-ai/issues/23) | **P4** | Skill 标准化的具体原则没有展开 | 补充「Skill 设计规范」：命名、描述、参数、示例的标准格式，参考 MCP Tool 规范 | L1 |
+| [#24](https://github.com/datawhalechina/easy-data-x-ai/issues/24) | **P4 → D5** | P4 讲了 Skill 分割问题，但没有为 D5 的 MCP 做铺垫，两篇脱节 | 在 P4 结尾补「从 Skill 到 MCP：为什么需要标准化协议」，作为 D5 的引入 | L1 |
+| [#25](https://github.com/datawhalechina/easy-data-x-ai/issues/25) | **P5** | 三层度量框架讲了指标，但没有说怎么落地监测 | 补充「度量框架实施指南」：用 LangSmith / Prometheus 搭一套最小可用监控 dashboard | L3 |
+| [#26](https://github.com/datawhalechina/easy-data-x-ai/issues/26) | **P5** | 缺少成本–收益分析 | 补充「AI Agent ROI 计算模型」：数据层 / 模型层 / 业务层的投入产出估算框架 | L2 |
+| [#27](https://github.com/datawhalechina/easy-data-x-ai/issues/27) | **D2** | 向量化模型选型只推荐了 bge-m3，没有讲怎么选 | 补充「Embedding 模型选型指南」：中英文、多模态、成本、延迟四个维度横评 | L2 |
+| [#28](https://github.com/datawhalechina/easy-data-x-ai/issues/28) | **D2** | Chunking 策略只讲了基础分块，高级技巧缺失 | 补充「高级 Chunking 策略」：语义分块、动态 overlap、父子 chunk 三种策略对比实验 | L3 |
+| [#29](https://github.com/datawhalechina/easy-data-x-ai/issues/29) | **D3** | 对比实验样本量太小，无统计显著性 | 扩充评测数据集，补充更多场景（多跳问题、时效性查询、模糊表达），重跑 RAGAS 对比 | L3 |
+| [#30](https://github.com/datawhalechina/easy-data-x-ai/issues/30) | **D3** | P2 梳理的工程痛点在 D3 没有逐一给出解法 | 按 P2 痛点列表逐一补充对应代码实现（查询改写 / 自适应检索 / 答案验证等） | L3 |
+| [#31](https://github.com/datawhalechina/easy-data-x-ai/issues/31) | **D3** | 缺检索延迟和成本数据 | 补充「混合检索 vs 纯向量」的延迟 / 成本 / 精度三角对比实验 | L2 |
+| [#32](https://github.com/datawhalechina/easy-data-x-ai/issues/32) | **D4** | 记忆存储成本没有讨论 | 补充「长期记忆的存储成本控制」：压缩策略、冷热分层、定期清理的工程实践 | L2 |
+| [#33](https://github.com/datawhalechina/easy-data-x-ai/issues/33) | **D4** | 多用户记忆隔离方案缺失 | 补充「多用户 / 多租户记忆隔离」：user_id 命名空间 + 权限校验的实现示例 | L3 |
+| [#34](https://github.com/datawhalechina/easy-data-x-ai/issues/34) | **D5** | MCP 标准化几乎完全缺失（标题承诺但正文没展开） | 补充「MCP 实战」：从零实现一个 MCP Server，把 P4 设计的 Skill 发布成 MCP Tool，跑通 Claude / Cursor 调用 | L3 |
+| [#35](https://github.com/datawhalechina/easy-data-x-ai/issues/35) | **D5** | 跨平台 Skill 互操作没有示例 | 补充「同一个 Skill 在 Claude Code / Cursor / Copilot 中的调用差异」对比 | L2 |
 
 ### 列表 B：扩展篇共建（Extra-Chapter X1–X5）
 
@@ -133,10 +133,10 @@ chore: <工程/基建说明>            # CI、依赖、脚本
 
 | # | 扩展课程标题 | 热点趋势 | 共建入口（对应列表 A） |
 | --- | --- | --- | --- |
-| **X1** | 探究 AI Agent 记忆系统：从遗忘曲线到永久记忆 | AI 记忆 | 多 Agent 记忆冲突解决（→ #1/#2/#3） |
-| **X2** | 多 Skill 给上下文工程带来的麻烦：如何应对 Agent「爆上下文」 | 多 Skill / 上下文工程 | Skill 设计规范（→ #4/#5） |
-| **X3** | 从零到一上手混合检索：AI Native 统一数据基座实战 | Agentic RAG / 混合检索 | 扩充 RAG 评测数据集（→ #11/#12） |
-| **X4** | 海量 AI Agent 多模数据降本：数据湖库登场 | 数据湖库 × AI | 开源「湖到 RAG」教程（→ #14/#15） |
+| **X1** | 探究 AI Agent 记忆系统：从遗忘曲线到永久记忆 | AI 记忆 | 多 Agent 记忆冲突解决（→ [#19](https://github.com/datawhalechina/easy-data-x-ai/issues/19)/[#20](https://github.com/datawhalechina/easy-data-x-ai/issues/20)/[#21](https://github.com/datawhalechina/easy-data-x-ai/issues/21)） |
+| **X2** | 多 Skill 给上下文工程带来的麻烦：如何应对 Agent「爆上下文」 | 多 Skill / 上下文工程 | Skill 设计规范（→ [#22](https://github.com/datawhalechina/easy-data-x-ai/issues/22)/[#23](https://github.com/datawhalechina/easy-data-x-ai/issues/23)） |
+| **X3** | 从零到一上手混合检索：AI Native 统一数据基座实战 | Agentic RAG / 混合检索 | 扩充 RAG 评测数据集（→ [#29](https://github.com/datawhalechina/easy-data-x-ai/issues/29)/[#30](https://github.com/datawhalechina/easy-data-x-ai/issues/30)） |
+| **X4** | 海量 AI Agent 多模数据降本：数据湖库登场 | 数据湖库 × AI | 开源「湖到 RAG」教程（→ [#32](https://github.com/datawhalechina/easy-data-x-ai/issues/32)/[#33](https://github.com/datawhalechina/easy-data-x-ai/issues/33)） |
 | **X5** | 由你来定！ | ？？？ | ？？？ |
 
 ### 列表 C：工程 / 基建任务（Good First Issue）
