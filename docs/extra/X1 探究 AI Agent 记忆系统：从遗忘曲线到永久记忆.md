@@ -14,7 +14,7 @@ title: X1 探究 AI Agent 记忆系统：从遗忘曲线到永久记忆
 | --- | --- |
 | **热点趋势** | AI 记忆 |
 | **关联正文** | 道篇 P3、术篇 D4（记忆系统） |
-| **共建入口** | 多 Agent 记忆冲突解决（对应共建任务 #1 / #2 / #3） |
+| **共建入口** | 多 Agent 记忆冲突解决（对应共建任务 [#19](https://github.com/datawhalechina/easy-data-x-ai/issues/19) / [#20](https://github.com/datawhalechina/easy-data-x-ai/issues/20) / [#21](https://github.com/datawhalechina/easy-data-x-ai/issues/21)） |
 
 > 在课程正文 P3 / D4 的记忆系统基础上，进一步探究：记忆如何随时间衰减、如何在多 Agent 间隔离与共享、新旧记忆冲突如何解决，直到走向「永久记忆」。
 >

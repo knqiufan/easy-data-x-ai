@@ -14,7 +14,7 @@ title: X2 多 Skill 给上下文工程带来的麻烦：如何应对 Agent「爆
 | --- | --- |
 | **热点趋势** | 多 Skill / 上下文工程 |
 | **关联正文** | 道篇 P4（Skill 与知识管理） |
-| **共建入口** | Skill 设计规范（对应共建任务 #4 / #5） |
+| **共建入口** | Skill 设计规范（对应共建任务 [#22](https://github.com/datawhalechina/easy-data-x-ai/issues/22) / [#23](https://github.com/datawhalechina/easy-data-x-ai/issues/23)） |
 
 > 在课程正文 P4 的基础上，进一步探究：当 Skill 越来越多、全量注入上下文导致「爆上下文」时，如何用结构化存储 + 按需检索来管理 Skill，并给出一套可复用的 Skill 设计规范。
 >

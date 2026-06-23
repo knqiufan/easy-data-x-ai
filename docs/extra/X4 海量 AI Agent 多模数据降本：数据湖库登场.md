@@ -14,7 +14,7 @@ title: X4 海量 AI Agent 多模数据降本：数据湖库登场
 | --- | --- |
 | **热点趋势** | 数据湖库 × AI |
 | **关联正文** | 术篇 D2、D4（数据层与记忆存储） |
-| **共建入口** | 开源「湖到 RAG」教程（对应共建任务 #14 / #15） |
+| **共建入口** | 开源「湖到 RAG」教程（对应共建任务 [#32](https://github.com/datawhalechina/easy-data-x-ai/issues/32) / [#33](https://github.com/datawhalechina/easy-data-x-ai/issues/33)） |
 
 > 在课程正文 D2 / D4 的基础上，进一步探究：当 AI Agent 产生的多模数据规模变大时，如何用数据湖库做冷热分层、降本存储，并打通「从数据湖到 RAG」的完整链路。
 >

@@ -14,7 +14,7 @@ title: X3 从零到一上手混合检索：AI Native 统一数据基座实战
 | --- | --- |
 | **热点趋势** | Agentic RAG / 混合检索 |
 | **关联正文** | 道篇 P2、术篇 D3（RAG 与混合检索） |
-| **共建入口** | 扩充 RAG 评测数据集（对应共建任务 #11 / #12） |
+| **共建入口** | 扩充 RAG 评测数据集（对应共建任务 [#29](https://github.com/datawhalechina/easy-data-x-ai/issues/29) / [#30](https://github.com/datawhalechina/easy-data-x-ai/issues/30)） |
 
 > 在课程正文 P2 / D3 的基础上，进一步带读者从零搭建一套基于 AI Native 数据库的统一数据基座，跑通混合检索（向量 + 全文），并用更丰富的评测数据集量化「混合检索 vs 纯向量检索」的效果差异。
 >
