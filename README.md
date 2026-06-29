@@ -218,7 +218,7 @@ python3 d1_1_base.py
     <img src="https://avatars.githubusercontent.com/u/34114995?v=4&s=144" width="72" height="72" alt="knqiufan" style="border-radius:50%;" />
   </a><br />
   <a href="https://github.com/knqiufan" title="打开 knqiufan 的 GitHub 主页"><kbd><strong>knqiufan</strong></kbd></a><br />
-  <sub>2 commits</sub>
+  <sub>3 commits</sub>
 </td>
 <td align="center" valign="top" width="104">
   <a href="https://github.com/amber-moe" title="amber-moe">
