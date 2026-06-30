@@ -228,6 +228,13 @@ python3 d1_1_base.py
   <sub>1 commit</sub>
 </td>
 <td align="center" valign="top" width="104">
+  <a href="https://github.com/haoye2" title="haoye2">
+    <img src="https://avatars.githubusercontent.com/u/199622891?v=4&s=144" width="72" height="72" alt="haoye2" style="border-radius:50%;" />
+  </a><br />
+  <a href="https://github.com/haoye2" title="打开 haoye2 的 GitHub 主页"><kbd><strong>haoye2</strong></kbd></a><br />
+  <sub>1 commit</sub>
+</td>
+<td align="center" valign="top" width="104">
   <a href="https://github.com/hu-qi" title="hu-qi">
     <img src="https://avatars.githubusercontent.com/u/17986122?v=4&s=144" width="72" height="72" alt="hu-qi" style="border-radius:50%;" />
   </a><br />
