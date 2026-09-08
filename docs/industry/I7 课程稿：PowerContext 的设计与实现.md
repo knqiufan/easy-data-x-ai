@@ -537,9 +537,3 @@ Experience 批准后可以进入检索与引用，Skill 批准后还要显式导
 - [PowerContext 官方文档](https://oceanbase.github.io/powercontext/)
 - [PowerContext 记忆层设计 RFC](https://github.com/oceanbase/powercontext/blob/master/docs/zh/rfcs/0014_memory_layer_design.md)
 - [PowerContext 端到端测评架构 RFC](https://github.com/oceanbase/powercontext/blob/master/docs/zh/rfcs/0081_end_to_end_evaluation_architecture.md)
-- [PowerMem 开源仓库](https://github.com/oceanbase/powermem)
-- [I7 课程共建 Issue #96](https://github.com/datawhalechina/easy-data-x-ai/issues/96)
-
-::: info 共建说明
-欢迎在课程共建 Issue [#96](https://github.com/datawhalechina/easy-data-x-ai/issues/96) 中补充案例、实验、图示和评测方法。
-:::
